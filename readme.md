@@ -6,6 +6,13 @@ Generating the form for each entity or plugin according to fetched schema. Suppo
 2. Validate form online before submit form to backend
 3. Create entity or plugin implementation
 
+## Usage
+
+1. Run the backend services from offcial doc: https://docs.konghq.com/gateway/2.7.x/install-and-run/docker/
+2. `git clone https://github.com/zongUMR/validate-generator.git`
+3. Install the dependencies(make sure you have [pnpm](https://pnpm.io/installation) installed on your computer first): `cd validate-generator && pnpm install`
+4. Run the front-end website: `pnpm dev`, and then open `localhost:3000` on your favorite browser.
+
 ## Generate form items dynamically for validate rules
 
 ### Support type of schema:
